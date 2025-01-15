@@ -87,10 +87,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     },
     "default": {
-        "ENGINE" : "django.db.backends.mysql"
+        "ENGINE" : "django.db.backends.mysql",
         "NAME": "mypoll",
-        "USER": "admin"
-        "PASSWORD": "Aeodeoddl998!"
+        "USER": "admin",
+        "PASSWORD": "Aeodeoddl998!",
         "HOST": "mypoll-db.cdy2i2s8sgyq.ap-northeast-2.rds.amazonaws.com",
         "PORT" : "3306"
     }
